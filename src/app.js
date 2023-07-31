@@ -1,6 +1,6 @@
 import express, { json } from "express";
 import index from "./routes/index.js";
-import db from "./config/dbConnect.js";
+import db from "./config/dBConnect.js";
 import listas from "./routes/lista.js";
 import chalk from "chalk";
 
